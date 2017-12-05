@@ -1,0 +1,12 @@
+body{
+    background-color: blue;
+}
+#gifSearch {
+    float: right;
+}
+#buttonID {
+    background:red;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+}
