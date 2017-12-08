@@ -19,13 +19,13 @@ function createButton(searches) {
 }
 
 function addGif() {
-    $("#gifSearch").on("click", function (event) {
+    $("#gifSubmit").on("click", function (event) {
         event.preventDefault();
-
         var userSearch = $("#gifSearch").val().trim();
         searches.push(userSearch);
-        $("gifSearch").val("");
         createButton(userSearch);
+
+        $("#gifSearch").val("").focus();
 
     });
 }
@@ -74,6 +74,8 @@ function GifButton() {
                 stateClick();
 
             });
+
+
 
 
     });

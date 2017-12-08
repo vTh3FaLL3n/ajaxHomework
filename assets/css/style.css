@@ -2,8 +2,24 @@ body{
     background-color: blue;
 }
 
-}
 #buttonID {
     background:red;
     color: white;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#buttonSelection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+#gifsImages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
 }
